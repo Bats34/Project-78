@@ -1,0 +1,25 @@
+<html>
+    <head><title>My Family Book</title></head><body>
+        <center>
+        <h1>My Family Book</h1>
+        <img id="familu" src="family pic.jpg"><hr>
+        <button type="button" id="this" onclick=" flip()">Next
+            </button>
+            <h4  id="baby"style="font-size:35px;">My Family</h4>
+            <script>
+                var array= [
+            "Sanvi passport.JPG" ,"Aman passport.JPG", "gh.jpg"
+                ];
+                var ghtujf= [
+                    "Sanvi Batra" , "Aman Batra", "Parul Khullar"
+                ];
+                var i=0;
+                function flip() {
+                    document.getElementById("familu").src=array[i];
+                    document.getElementById("baby").innerHTML=ghtujf[i];
+                    i++;
+                }
+                </script>
+                </center>
+                </body>
+                </html>
